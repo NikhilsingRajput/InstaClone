@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container {
+  width: 100%;
+}
+
+.insta-icon:last-child {
+  float: right
+}
+
+.insta-icon:first-child {
+  float: left;
+}
+
+.insta-icon {
+  height: 100%;
+}
+
+img {
+  height: 12vh;
+}
+
+#nav {
+  /* background-color: rgb(250, 239, 239); */
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+.post-box {
+  width: 500px;
+  min-height: 400px;
+  margin: 10px auto 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.post-top-dots {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.post-box .post-top {
+  padding: 20px 10px;
+  position: relative;
+}
+
+.post-date {
+  float: right;
+}
+
+.post-image img {
+  width: 100%;
+  height: 35vh;
+
+}
+
+.post-likes img {
+  width: 2vw;
+  height: 4vh;
+
+}
+
+.post-likes img:last-child {
+  padding-left: 10px;
+}
+
+/* .img-left {
+  width: 45vw;
+  height: 20Vh;
+  border-radius: 20px;
+  border: solid 10px #61dafb;
+} */
+
+.img-left img {
+  margin: 60px;
+  width: 40vw;
+  height: 80vh;
+  border-radius: 20px;
+  
+  
+}
+
+.second-child {
+  padding-left: 20vw;
+  padding-top: 35vh;
+ 
+}
+
+.Home-page {
+  display: flex;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 250vw;
+  background-image: linear-gradient(to bottom right, #33475b, #4367d2, #ff9577, rgb(255, 122, 89));
+  /* background-image: url("https://knowtechie.com/wp-content/uploads/2017/03/instagram.jpg"); */
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  padding: 20px;
+  margin-left: 40px;
+  background-color: rgb(36, 37, 5);
+  color: beige;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.Instagram-name{
+  padding-left: 30vw;
+}
