@@ -1,11 +1,11 @@
-import bootstrap from 'bootstrap'
+
 
 function Newpost(){
-    return <form action="post" className="col">
-        <div className="col">
+    return <form action="post" >
+        <div >
         <input type="file" required />
         </div>
-        <div className="col-md-6">
+        <div >
             <input typeof="text" placeholder="Author" required/>
             <span>
                 <input typeof="text" placeholder="Location" required/>
