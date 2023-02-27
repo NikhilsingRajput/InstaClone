@@ -16,7 +16,7 @@ function Posts(){
         }).catch(err=>{
             alert(err.message)
         })
-    })
+    },[])
 
 
     return <div id="post-container">
